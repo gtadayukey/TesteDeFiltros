@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: image-filter-api
+Version: 0.1.0
+Summary: API Flask para aplicar filtros OpenCV em imagens
+Author: Seu Nome
+Requires-Python: >=3.9
+Requires-Dist: flask>=3.1.2
+Requires-Dist: flask-cors>=6.0.1
+Requires-Dist: numpy>=2.2.6
+Requires-Dist: opencv-python>=4.11.0.86
+Requires-Dist: pybase64>=1.4.3

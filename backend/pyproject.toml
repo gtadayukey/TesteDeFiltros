@@ -1,0 +1,23 @@
+[project]
+name = "image-filter-api"
+version = "0.1.0"
+description = "API Flask para aplicar filtros OpenCV em imagens"
+authors = [
+    { name = "Guilherme Tadayuki Yokokura" },
+    { name = "Enzo Martins" },
+    { name = "Fabio Gabriel Barros Oliveira" },
+    { name = "Pedro Henrique Coimbra" },
+    { name = "Carlos Egger" },
+]
+requires-python = ">=3.9"
+
+dependencies = [
+    "flask>=3.1.2",
+    "flask-cors>=6.0.1",
+    "numpy>=2.2.6",
+    "opencv-python>=4.11.0.86",
+    "pybase64>=1.4.3",
+]
+
+[tool.black]
+line-length = 88
